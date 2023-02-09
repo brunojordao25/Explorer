@@ -1,0 +1,103 @@
+/* Mudei os espaçamentos das margens para que o 
+conteúdo caiba sem necessidade de scroll.
+*/
+body {
+  background-color: #2F2E41;
+  font-family: 'JetBrains Mono', monospace;
+  color: white;
+  margin: 0;
+
+}
+
+nav {
+  width: 1083px;
+  margin: 35px auto 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 64px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;  
+  color: white;
+}
+
+main {
+  width: 1092px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main img {
+  width: 401px;
+}
+
+section {
+  width: 614px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+
+  width: 604px;
+  margin: auto;
+}
+
+p + p {
+  margin-top: 30px;
+}
+
+span {
+  color: #00BFA6;
+}
+
+.line {
+  height: 0;
+  border: 1px solid #00BFA6;
+  margin-bottom: 27px;
+}
+
+footer {
+  width: 568px;
+  margin: 110px auto;
+
+  font-size: 14px;
+  line-height: 28px;
+}
+
+footer p {
+  width: 462px;
+  margin: auto;
+  /* como eu uso  box-model para centralizar o conteúdo do footer?*/
+}
+
+#cadeado {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
