@@ -1,4 +1,4 @@
-// Jogo da Advinhação
+// Jogo da Adivinhação
 
 /* 
   Apresente a mensagem ao usuário:
